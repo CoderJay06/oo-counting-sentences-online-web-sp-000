@@ -19,7 +19,6 @@ class String
       self.split(/[?.!]+/).length
     else
       return 0
-      binding.pry 
     end
   end
 end
