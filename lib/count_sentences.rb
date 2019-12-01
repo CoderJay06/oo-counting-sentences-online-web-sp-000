@@ -17,9 +17,9 @@ class String
   def count_sentences
     if self.sentence? || self.question? || self.exclamation? 
       self.split.length 
-    else 
+    else
       return 0
-      # binding.pry 
+      binding.pry 
     end
   end
 end
