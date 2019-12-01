@@ -18,6 +18,7 @@ class String
     if self.sentence? || self.question? || self.exclamation? 
       self.split.length 
     else 
+      return 0
       # binding.pry 
     end
   end
